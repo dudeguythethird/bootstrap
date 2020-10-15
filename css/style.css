@@ -2,6 +2,15 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.container-wrapper {
+
+}
+
+.container-wrapper--red {
+    background-color: #f05f04;
+    color: white;
+}
+
 .alert-container .col-12 {
     padding-right: 0;
     padding-left: 0;
@@ -71,6 +80,17 @@ body {
 
 .block-divider--short{
     width: 35px;
+}
+
+.block-divider--white {
+    background-color: white;
+}
+
+/*content containers*/
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 /*Navbar*/
@@ -151,4 +171,15 @@ body {
 .btn:hover {
     color: #ffffff;
     text-decoration: none;
+}
+
+.feature {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.feature i {
+    margin-bottom: 20px;
+    font-size: 45px;
+    line-height: 45px;
 }
